@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(./images/a.png);
+  background-size: cover;
+
+}
+.eat-w{
+  position: relative;
+}
+.eat{
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  width: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(0,0,0,0.5);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10%;
+}
+.eat button{
+  width: 70px;
+  height: 40px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  background-color: deeppink;
+  border-radius: 8%;
+  color: #fff;
+
+}
